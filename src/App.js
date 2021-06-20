@@ -18,7 +18,7 @@ function App() {
       console.log(colors);
     } catch (error) {
       setError(true);
-      // alert("Enter a valid HEX value.")
+      alert("Enter a valid primary colour or HEX value.")
       console.log("error");
     }
   }
