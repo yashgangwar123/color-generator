@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import SingleColor from "./SingleColor";
 import Values from "values.js"; // imported a file (npm install values.js --save)  github repo - https://github.com/noeldelgado/values.js
+import colorlogo from "./colorlogo.png"
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
 
     <>
       <section className="container">
+        {/* <img src={colorlogo} alt="logo" style={{height: '2rem' , width: '2remm'}}></img> */}
         <h3>Color Generator</h3>
         <form onSubmit={handleSubmit}>
           <input type="text" value={color} placeholder="eg. #f15025" className={error ? "error" : null} onChange={(event) => setColor(event.target.value)}></input>
