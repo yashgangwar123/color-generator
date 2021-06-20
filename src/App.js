@@ -27,7 +27,7 @@ function App() {
 
     <>
       <section className="container">
-        {/* <img src={colorlogo} alt="logo" style={{height: '2rem' , width: '2remm'}}></img> */}
+        <img src={colorlogo} alt="logo" style={{height: '3rem' , width: '3rem'}}></img>
         <h3>Color Generator</h3>
         <form onSubmit={handleSubmit}>
           <input type="text" value={color} placeholder="eg. #f15025" className={error ? "error" : null} onChange={(event) => setColor(event.target.value)}></input>

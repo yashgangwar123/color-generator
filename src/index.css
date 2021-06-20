@@ -179,10 +179,18 @@ input:focus{
   cursor: pointer;
 }
 @media screen and (max-width: 576px) {
+  .container{
+    padding-left: 0.5rem;
+  }
   .container h3 {
     font-size: 1rem;
+    margin-right: 0.5rem;
+
   }
-  input,
+  input{
+    font-size: 0.85rem;
+    width: 8rem;
+  }
   .btn {
     font-size: 0.85rem;
   }
